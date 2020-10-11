@@ -3,6 +3,9 @@ html {
     min-height: 100%;
 }
 
+a{
+  color: black;
+}
 body {
     margin-bottom: 60px; /* Margin bottom by footer height */
    background-color:grey;
@@ -49,7 +52,16 @@ figcaption{
     text-align: center;
     margin-top: 10px;
   }
+#png1{
+  width: auto;
+  height: 500px;
+}
 
+#png2{
+  width: auto;
+  height: 200px;
+}
 
-
+#contactmain{
+  margin: 5px;
 }
