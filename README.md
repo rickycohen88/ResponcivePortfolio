@@ -9,7 +9,7 @@ to create a Responcive portfolio using as little(i used none) media queries as p
 ### Method
 Using Bootstrap created a multipage portfollio with assorted layout styles and techniques. added some personalizing of the elements with my own css. added some googlw fonts and some font awesome fonts for button/links.
 
-
+### Badges
 ![Image](https://img.shields.io/badge/languages-html%20%7C%20css%20%7C%20javascript-blue)<br>
 ![Image](https://img.shields.io/website?down_color=red&down_message=Down&style=plastic&up_color=Lightgreen&up_message=Up&url=https%3A%2F%2Frickycohen88.github.io%2FResponcivePortfolio%2F)<br>
 [![Support Server](https://img.shields.io/discord/758849764959191071.svg?color=7289da&label=UofMcohort&logo=discord&style=flat-square)](https://discord.gg/HaWKVB6)<br>
