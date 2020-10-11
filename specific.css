@@ -7,10 +7,34 @@ body {
     margin-bottom: 60px; /* Margin bottom by footer height */
    background-color:grey;
    color: ivory;
-  }
-p {
+}
+
+#homebtn, #contactbtn, #portfoliobtn{
+  color: #28a745;
+
+}
+p{
   font-family: 'Press Start 2P';
   font-size: small;
+}
+
+p:first-of-type:first-letter{
+  float:left;
+  font-size: 45px;
+  line-height: 1;
+  font-weight: bold;
+  margin-right: 9px;
+  font-family: 'Pacifico','Press Start 2P';
+}
+
+#firstContent{
+  padding-top: 5px;
+}
+figcaption{
+  background-color: #212529;
+  font-weight: bolder;
+  font-size: medium;
+  font-family: 'IM Fell English';
 }
 
 .footer {
@@ -25,18 +49,7 @@ p {
     text-align: center;
     margin-top: 10px;
   }
-#firstContent{
-  padding-top: 5px;
-}
-#mainImage{
 
 
-}
-p:first-of-type:first-letter{
-  float:left;
-  font-size: 45px;
-  line-height: 1;
-  font-weight: bold;
-  margin-right: 9px;
-  font-family: 'Pacifico','Press Start 2P';
+
 }
