@@ -3,8 +3,7 @@
 
 ## *Objective* 
 to create a Responcive portfolio using as little(i used none) media queries as possible
- `bonus` make a sticky footer(done)
- `bonus` use sub rows and columns on portfolio page(check) 
+
 
 ### Method
 Using Bootstrap created a multipage portfollio with assorted layout styles and techniques. added some personalizing of the elements with my own css. added some googlw fonts and some font awesome fonts for button/links.
@@ -39,7 +38,6 @@ just download the files directly for git hub.
 [Link](https://rickycohen88.github.io/ResponcivePortfolio/)
 
 ### Credits
-* Trillogy Education
 * Bootstrap
 * Google
 * Awesome Fonts

@@ -12,13 +12,12 @@ body {
    color: ivory;
 }
 
-#homebtn, #contactbtn, #portfoliobtn{
+#homebtn, #contactbtn, #portfoliobtn, #biobtn{
   color: #28a745;
 
 }
 p{
-  font-family: 'Press Start 2P';
-  font-size: small;
+  
 }
 
 p:first-of-type:first-letter{
@@ -62,6 +61,7 @@ figcaption{
   height: 200px;
 }
 
-#contactmain{
+#basicInfo, #contactmain{
+  font-family: 'Exo+2';
   margin: 5px;
 }
