@@ -20,10 +20,26 @@ body {
 
 }
 p{
-  backdrop-filter: blur(5px);
+ 
   
 }
-
+#headShot{
+  float: left;
+  margin-right: 15px;
+}
+#mainImage{
+  max-width: 500px;
+}
+.text{
+  background-color: #363636;
+}
+#firstP{
+  font-family: 'Exo 2';
+  font-size: x-large;
+}
+#firstP ::first-letter{
+  font-size: xx-large;
+}
 
 #firstContent{
   padding-top: 5px;
@@ -60,4 +76,7 @@ figcaption{
 #basicInfo, #contactmain{
   font-family: 'Exo+2';
   margin: 5px;
+}
+#contactmain{
+  font-size: large;
 }
