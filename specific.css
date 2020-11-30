@@ -4,41 +4,49 @@ html {
 }
 
 a{
-  color: black;
+  color: white;
 }
 body {
-    margin-bottom: 60px; /* Margin bottom by footer height */
+  margin-bottom: 60px; /* Margin bottom by footer height */
    background-image: url("Assets/Images/icelandCavern.jpg");
    background-position: center;
    background-color: #212529;
    background-size: cover;
    color: ivory;
 }
+.spanHeader{
+  font-size: x-large;
+}
+.contactlink{
+  color: black;
+}
 
 #homebtn, #contactbtn, #portfoliobtn, #biobtn{
   color: #28a745;
 
 }
-p{
- 
-  
-}
+
 #headShot{
   float: left;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 #mainImage{
   max-width: 500px;
+}
+#wordconn, #calendar, #weather{
+  max-width: 500px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .text{
   background-color: #363636;
 }
 #firstP{
   font-family: 'Exo 2';
-  font-size: x-large;
+  font-size: large;
 }
-#firstP ::first-letter{
-  font-size: xx-large;
+#firstP::first-letter{
+  font-size: 50px;
 }
 
 #firstContent{

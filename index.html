@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--google font-->
-    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap" rel="stylesheet">
     <!--Bootstrap css-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!--personal changes to css-->
@@ -25,7 +24,7 @@
                 <a class="nav-link" href="portfolio.html"  id="portfoliobtn" >Portfolio<span class="sr-only">(Portfolio)</span></a>
               </li>
               <li>
-                <a class="nav-link" href="bio.html"  id="biobtn" >Bio<span class="sr-only">(Bio)</span></a>
+                <a class="nav-link disabled" href="bio.html"  id="biobtn" >Bio<span class="sr-only">(Bio)</span></a>
               </li>
               <li> 
                 <a class="nav-link" href="contact.html" id="contactbtn" >Contact<span class="sr-only">(contact)</span></a>
@@ -35,13 +34,12 @@
       </nav>
     
       <main class="container" id="firstContent">
-        <section class ="row justify-content-center">
-          <article class="text-wrap" >
-          <figure class=""id="headShot">
-            <img src="Assets/Images/selfie.png" class="" alt="Picture of Ricky" id="mainImage">
-            <figcaption style="text-align: center;">Ricky</figcaption>
-          </figure>
-            
+        <section class ="row">
+          <div class="col-md-12">
+            <figure class="img-fluid" id="headShot">
+              <img src="Assets/Images/selfie.png" class="" alt="Picture of Ricky" id="mainImage">
+              <figcaption style="text-align: center;">Ricky</figcaption>
+            </figure>
               <p id="firstP">
                 <span class="text">Hi, Hello, and thank you for stoping in! My name is Richard Cohen ,but i like to go by Ricky. 
                   So lets start with the big question; why me? This is to say why hire me? Why trust me with your next project?
@@ -55,10 +53,11 @@
                   This way they can understand all aspects of the solution they are being tasked to provide; hopefully even provide insight that was unforseen to the customer(you).
                 </span>
               </p>
-            </article>
+            </div>
           </section>
-        
-      </main>
+        </main>
+      
+          
       <footer class="footer">
         <div class="container">
           <div class ="row justify-content-center">
