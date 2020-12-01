@@ -88,3 +88,9 @@ figcaption{
 #contactmain{
   font-size: large;
 }
+@media(max-width:450px){
+  #mainImage,#wordconn, #weather, #calendar{
+    width: 100%;
+
+  }
+}
