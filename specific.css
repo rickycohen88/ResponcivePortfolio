@@ -26,10 +26,15 @@ body {
 
 }
 
-#headShot{
+#one, #two, #three{
   float: left;
   margin-right: 10px;
 }
+
+#poachedEgg{
+  width: 500px;
+}
+
 #mainImage{
   max-width: 500px;
 }
